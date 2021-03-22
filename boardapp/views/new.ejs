@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>글작성</title>
+  </head>
+  <body>
+    <div class="">
+      <form class="" action="/new" method="post">
+        <div>
+          <label for="writer">글쓴이</label>
+          <input style="width: 700px;" type="text" id="writer" name="writer" value="">
+        </div>
+        <p></p>
+        <div>
+          <label for="content">글내용</label>
+          <input style="width: 700px; height: 700px; outline-style: none; line-height: normal;" autocomplete="off" type="text" id="content" name="content" value="">
+        </div>
+        <div>
+          <button style="position: absolute" type="submit">전송</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script type="emi">
+  <div>
+  <label for="content">비밀번호</label>
+  <input autocomplete="off" type="number"
+  onKeyup="this.value=this.value.replace(/[^0-9]/g,'');" id="content" name="content" value="">
+</div>
+</script>
